@@ -1,9 +1,11 @@
 {
   "name": "tailwind2css",
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "build:pages": "BASE_URL='/tailwind2css/' pnpm build"
   },
   "keywords": [],
   "author": "",
