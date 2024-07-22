@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 100%;
+}
+
+#app {
+  display: flex;
+  align-items: flex-start;
+  justify-items: flex-start;
+}
+
+textarea {
+  font-size: 1rem;
+  resize: none;
+  height: 100vh;
+  width: 50%;
+  padding: 1rem;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tailwind2css",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.6",
+    "tw-to-css": "^0.0.12"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
+  }
+}
