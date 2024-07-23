@@ -11,7 +11,10 @@ export default defineEventHandler(async (event) => {
   if (!body) {
     return "";
   }
-  const classes = await classesToCSSV2(body).catch(err=>false);
+  const classes = await classesToCSSV2(body).catch((err) => {
+    console.error(err);
+    return false;
+  });
   if (!classes) {
     return "";
   }
