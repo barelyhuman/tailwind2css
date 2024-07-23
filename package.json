@@ -1,21 +1,21 @@
 {
-  "name": "tailwind2css",
-  "version": "0.1.0",
+  "name": "nuxt-app",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "build:pages": "BASE_URL='/tailwind2css/' pnpm build"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@dumbjs/quick-hash": "^0.0.4",
+    "autoprefixer": "^10.4.19",
+    "nuxt": "^3.12.4",
+    "postcss": "^8.4.39",
     "prettier": "^3.3.3",
     "tailwindcss": "^3.4.6",
-    "tw-to-css": "^0.0.12"
-  },
-  "devDependencies": {
-    "vite": "^5.3.4"
+    "vue": "latest"
   }
 }
